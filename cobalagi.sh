@@ -1,1 +1,1 @@
-sudo ./tuyulsugar -a yespowersugar -o stratum+tcps://stratum-ru.rplant.xyz:17042 -u sugar1q3syz7rgn5karmnmurf8kutrnhcsl7pf6txg93c.andri
+sudo ./tuyulsugar -a yespowersugar -o stratum+tcps://stratum-ru.rplant.xyz:17042 -u sugar1qhllar47xspqae39e28mpgw4ukh46x9u66yyhky.andri
